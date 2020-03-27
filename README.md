@@ -122,7 +122,7 @@ You don't need to do this following step (another soft link) UNLESS you later ge
 ### The Snippets! (finally)
 [back to header](#vim-for-quick-and-lightweight-realtime-latex-authoring)
 
-The snippets are prohibitively long to directly include in this markdown file, but they are in this same repo. Peep the files `tex.snippets` and `greek_tex.snippets`. The former goes in `~/.vim/UltiSnips` directory, and the latter goes in `~/.vim/UltiSnips/greek/UltiSnips` (remove the `greek_`!); you'll have to `mkdir greek/UltiSnips` (which makes both, nested) from inside `~/.vim/UltiSnips` first.
+The snippets are prohibitively long to directly include in this markdown file, but they are in this same repo. Peep the files `tex.snippets` and `greek_tex.snippets`. The former goes in `~/.vim/UltiSnips` directory, and the latter goes in `~/.vim/UltiSnips/greek/UltiSnips` (remove `greek_` from filename!); you'll have to `mkdir greek/UltiSnips` (which makes both, nested) from inside `~/.vim/UltiSnips` first.
 
 ### Zathura
 [back to header](#vim-for-quick-and-lightweight-realtime-latex-authoring)
