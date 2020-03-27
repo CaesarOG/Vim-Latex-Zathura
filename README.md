@@ -28,7 +28,7 @@ The Vim that comes with MacOS will not suffice for this, a newer Vim and most of
 ### Python 3
 [back to header](#vim-for-quick-and-lightweight-realtime-latex-authoring)
 
-Many users who work with LaTeX nowadays tend to have the Anaconda distribution installed already with their PATH variable prefixed by `"install_location"/anaconda3/bin`; in this case you already have Python 3. If you don't have Anaconda, you may have still installed Python separately, check Python at your terminal and see if you get a version 3.X.X, and also check for the existence of pip3. ONLY IF these tools are not there, you'll need to run:
+Many users who work with LaTeX in data-heavy disciplines nowadays tend to have the Anaconda distribution installed already with their PATH variable prefixed by `"install_location"/anaconda3/bin`; in this case you already have Python 3. If you don't have Anaconda, you may have still installed Python separately, check Python at your terminal and see if you get a version 3.X.X, and also check for the existence of pip3. ONLY IF these tools are not there, you'll need to run:
 ```sh
 brew install python
 ```
