@@ -56,8 +56,8 @@ call plug#begin('~/.vim/plugged')
 " Declare the list of plugins.
 Plug 'sirver/ultisnips'
 	let g:UltiSnipsExpandTrigger = '<tab>'
-    let g:UltiSnipsJumpForwardTrigger = '<tab>'
-    let g:UltiSnipsJumpBackwardTrigger = '<s-tab>'
+	let g:UltiSnipsJumpForwardTrigger = '<tab>'
+	let g:UltiSnipsJumpBackwardTrigger = '<s-tab>'
 
 Plug 'lervag/vimtex'
 	set nocompatible
