@@ -55,32 +55,32 @@ call plug#begin('~/.vim/plugged')
 
 " Declare the list of plugins.
 Plug 'sirver/ultisnips'
-let g:UltiSnipsExpandTrigger = '<tab>'
-let g:UltiSnipsJumpForwardTrigger = '<tab>'
-let g:UltiSnipsJumpBackwardTrigger = '<s-tab>'
+    let g:UltiSnipsExpandTrigger = '<tab>'
+    let g:UltiSnipsJumpForwardTrigger = '<tab>'
+    let g:UltiSnipsJumpBackwardTrigger = '<s-tab>'
 
 Plug 'lervag/vimtex'
-set nocompatible
-let &rtp = '~/.vim/plugged/vimtex,' . &rtp
-let &rtp .= ',~/.vim/plugged/vimtex/after'
-filetype plugin indent on
-syntax enable
-let g:vimtex_latexmk_continuous=0
-let g:tex_flavor='latex'
-let g:Tex_DefaultTargetFormat='pdf'
-let g:vimtex_view_enabled=1
-let g:vimtex_view_automatic=1
-let g:vimtex_view_general_viewer='zathura'
-let g:vimtex_view_method='zathura'
-let g:vimtex_quickfix_mode=0
-let g:vimtex_compiler_latexmk = { 
-  \  'callback' : 0,
-  \}
+	set nocompatible
+	let &rtp = '~/.vim/plugged/vimtex,' . &rtp
+	let &rtp .= ',~/.vim/plugged/vimtex/after'
+	filetype plugin indent on
+	syntax enable
+	let g:vimtex_latexmk_continuous=0
+    let g:tex_flavor='latex'
+	let g:Tex_DefaultTargetFormat='pdf'
+	let g:vimtex_view_enabled=1
+	let g:vimtex_view_automatic=1
+	let g:vimtex_view_general_viewer='zathura'
+    let g:vimtex_view_method='zathura'
+    let g:vimtex_quickfix_mode=0
+	let g:vimtex_compiler_latexmk = { 
+      \  'callback' : 0,
+      \}
 
 Plug 'KeitaNakamura/tex-conceal.vim'
-set conceallevel=1
-let g:tex_conceal='abdmg'
-hi Conceal ctermbg=none
+    set conceallevel=1
+    let g:tex_conceal='abdmg'
+    hi Conceal ctermbg=none
 
 Plug 'dylanaraps/wal'
 
@@ -93,6 +93,7 @@ inoremap <C-l> <c-g>u<Esc>[s1z=`]a<c-g>u
 colorscheme wal
 set background=dark
 set rtp+=~/.vim/UltiSnips/greek
+
 ```
 BEFORE running the plugin install command, if you don't have the `iterm2` terminal app installed and further definitely don't want to either, omit the following two lines for Vim font (first line in plugin section, second at bottom):
 ```vim
