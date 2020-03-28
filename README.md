@@ -149,7 +149,7 @@ You'll immediately notice that as you type beg, it automatically expands to:
 \end{}
 ```
 with the cursor inside the curly brackets at `\begin`. Here, type `document`, which will add the same word inside the `\end` tag, and hitting `Tab` afterwards will bring you inside the two tags. Type some text, then to try another snippet first `Esc` out of Insert mode and hit `v` for Visual mode, and select the text you just typed by `option+click` at the beginning and another `option+click` at the end. With the text highlighted, hit `Tab` which deletes the text, type `lr` then hit `Tab` again which will bring back the text surrounded by `\left(` and `\right)` parentheses. This begins to show you the full power of the UltiSnip plugin, which also lets you use regex as part of Python interpolation in snippet expansion. How text selected in Visual mode can be captured to be used in a snippet is [Explained Here](http://vimcasts.org/episodes/ultisnips-visual-placeholder/). 
-Hit `Esc` and then `\ll`, this will start the Vimtex compiler in continuous mode, then in another window go to the same directory where your new `name.tex` file is and run `zathura name.pdf &` and `disown`. Watch as each keystroke re-renders the PDF, enjoy :) .
+Hit `Esc` and then `\ll`, this will start the Vimtex compiler in continuous mode, then in another window/tab go to the same directory where your new `name.tex` file is and run `zathura name.pdf &` and `disown`. Watch as each keystroke re-renders the PDF, enjoy :) .
 
 ## Final Notes
 [back to header](#vim-for-quick-and-lightweight-realtime-latex-authoring)
