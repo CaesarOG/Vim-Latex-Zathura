@@ -55,7 +55,7 @@ call plug#begin('~/.vim/plugged')
 
 " Declare the list of plugins.
 Plug 'sirver/ultisnips'
-    let g:UltiSnipsExpandTrigger = '<tab>'
+	let g:UltiSnipsExpandTrigger = '<tab>'
     let g:UltiSnipsJumpForwardTrigger = '<tab>'
     let g:UltiSnipsJumpBackwardTrigger = '<s-tab>'
 
@@ -66,16 +66,16 @@ Plug 'lervag/vimtex'
 	filetype plugin indent on
 	syntax enable
 	let g:vimtex_latexmk_continuous=0
-    let g:tex_flavor='latex'
+	let g:tex_flavor='latex'
 	let g:Tex_DefaultTargetFormat='pdf'
 	let g:vimtex_view_enabled=1
 	let g:vimtex_view_automatic=1
 	let g:vimtex_view_general_viewer='zathura'
-    let g:vimtex_view_method='zathura'
-    let g:vimtex_quickfix_mode=0
+	let g:vimtex_view_method='zathura'
+	let g:vimtex_quickfix_mode=0
 	let g:vimtex_compiler_latexmk = { 
-      \  'callback' : 0,
-      \}
+	  \  'callback' : 0,
+	  \}
 
 Plug 'KeitaNakamura/tex-conceal.vim'
     set conceallevel=1
