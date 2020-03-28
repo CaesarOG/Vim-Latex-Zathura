@@ -60,20 +60,20 @@ Plug 'sirver/ultisnips'
     let g:UltiSnipsJumpBackwardTrigger = '<s-tab>'
 
 Plug 'lervag/vimtex'
-	set nocompatible
-	let &rtp = '~/.vim/plugged/vimtex,' . &rtp
-	let &rtp .= ',~/.vim/plugged/vimtex/after'
-	filetype plugin indent on
-	syntax enable
-	let g:vimtex_latexmk_continuous=0
+    set nocompatible
+    let &rtp = '~/.vim/plugged/vimtex,' . &rtp
+    let &rtp .= ',~/.vim/plugged/vimtex/after'
+    filetype plugin indent on
+    syntax enable
+    let g:vimtex_latexmk_continuous=0
     let g:tex_flavor='latex'
-	let g:Tex_DefaultTargetFormat='pdf'
-	let g:vimtex_view_enabled=1
-	let g:vimtex_view_automatic=1
-	let g:vimtex_view_general_viewer='zathura'
+    let g:Tex_DefaultTargetFormat='pdf'
+    let g:vimtex_view_enabled=1
+    let g:vimtex_view_automatic=1
+    let g:vimtex_view_general_viewer='zathura'
     let g:vimtex_view_method='zathura'
     let g:vimtex_quickfix_mode=0
-	let g:vimtex_compiler_latexmk = { 
+    let g:vimtex_compiler_latexmk = { 
       \  'callback' : 0,
       \}
 
@@ -93,7 +93,6 @@ inoremap <C-l> <c-g>u<Esc>[s1z=`]a<c-g>u
 colorscheme wal
 set background=dark
 set rtp+=~/.vim/UltiSnips/greek
-
 ```
 BEFORE running the plugin install command, if you don't have the `iterm2` terminal app installed and further definitely don't want to either, omit the following two lines for Vim font (first line in plugin section, second at bottom):
 ```vim
